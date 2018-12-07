@@ -13,7 +13,7 @@ import ObjectRepositoryOR.LandingPage;
 import ObjectRepositoryOR.PassengerdetailsPage;
 import ObjectRepositoryOR.Seatspage;
 
-public class TestCase1 extends StartBrowser {
+public class EndtoEndFlow extends StartBrowser {
   
 	@Test
   public void Basicflow() throws Exception {

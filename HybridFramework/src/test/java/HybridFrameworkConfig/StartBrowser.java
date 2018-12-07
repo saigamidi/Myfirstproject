@@ -34,7 +34,7 @@ public class StartBrowser {
   
   @BeforeTest
   public void report(){
-	  htmlReporter = new ExtentHtmlReporter("C:/Sai/Personal/Learning/Selenium/Worspace/SeleniumLunaWS/HybridFramework/Report/MyhtmlReport.html");
+	  htmlReporter = new ExtentHtmlReporter("C:/Users/IBM_ADMIN/git/repository/HybridFramework/Report/MyhtmlReport.html");
 	  extent = new ExtentReports();// it will capture the input files to write the code in html report
 	  extent.attachReporter(htmlReporter);
 	  
@@ -53,7 +53,7 @@ public class StartBrowser {
   public void afterClass(){
 	
 	driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
-	//driver.quit();
+	driver.quit();
 	extent.flush(); // after closing of browser it will write code to html file
 	
   }

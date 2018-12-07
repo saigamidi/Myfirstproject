@@ -46,7 +46,7 @@
 		<ul id='nav-mobile' class='right hide-on-med-and-down nav-right'>
 			<li>
                 <a href='#!'>
-                    <span class='label suite-start-time blue darken-3'>Jul 11, 2018 12:38:24 PM</span>
+                    <span class='label suite-start-time blue darken-3'>Dec 7, 2018 09:59:05 PM</span>
 				</a>
 			</li>
 			<li>
@@ -72,7 +72,6 @@
 				</a>
 				<ul id='tests-toggle' class='dropdown-content'>
 											<li status='pass'><a href='#!'>Pass <i class='material-icons green-text'>check_circle</i></a></li>
-						<li status='fail'><a href='#!'>Fail <i class='material-icons red-text'>cancel</i></a></li>
 					<li class='divider'></li>
 					<li status='clear' clear='true'><a href='#!'>Clear Filters <i class='material-icons'>clear</i></a></li>
 				</ul>
@@ -123,10 +122,10 @@
 					<canvas id='parent-analysis' width='100' height='80'></canvas>
 				</div>
 				<div class='block text-small'>
-					<span class='tooltipped' data-position='top' data-tooltip='0%'><span class='strong'>0</span> test(s) passed</span>
+					<span class='tooltipped' data-position='top' data-tooltip='100%'><span class='strong'>1</span> test(s) passed</span>
 				</div>
 				<div class='block text-small'>
-					<span class='strong tooltipped' data-position='top' data-tooltip='100%'>1</span> test(s) failed, <span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> others
+					<span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> test(s) failed, <span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> others
 				</div>
 			</div>
 		</div>
@@ -138,10 +137,10 @@
 					<canvas id='child-analysis' width='100' height='80'></canvas>
 				</div>
 				<div class='block text-small'>
-					<span class='tooltipped' data-position='top' data-tooltip='83.333%'><span class='strong'>5</span> step(s) passed</span>
+					<span class='tooltipped' data-position='top' data-tooltip='100%'><span class='strong'>17</span> step(s) passed</span>
 				</div>
 				<div class='block text-small'>
-					<span class='strong tooltipped' data-position='top' data-tooltip='16.667%'>1</span> step(s) failed, <span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> others
+					<span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> step(s) failed, <span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> others
 				</div>
 			</div>
 		</div>
@@ -156,26 +155,26 @@
 			<ul id='test-collection' class='test-collection'>
 				
 				
-				<li class='test displayed active has-leaf fail' status='fail' bdd='false' test-id='1'>
+				<li class='test displayed active has-leaf pass' status='pass' bdd='false' test-id='1'>
 					<div class='test-heading'>
-						<span class='test-name'>testSignin_Out</span>
-						<span class='test-time'>Jul 11, 2018 12:38:27 PM</span>
-						<span class='test-status right fail'>fail</span>
+						<span class='test-name'>Basicflow</span>
+						<span class='test-time'>Dec 7, 2018 09:59:09 PM</span>
+						<span class='test-status right pass'>pass</span>
 					</div>
 					<div class='test-content hide'>
 <div class='test-time-info'>
-	<span class='label start-time'>Jul 11, 2018 12:38:27 PM</span>
-	<span class='label end-time'>Jul 11, 2018 12:38:47 PM</span>
-	<span class='label time-taken grey lighten-1 white-text'>0h 0m 19s+566ms</span>
+	<span class='label start-time'>Dec 7, 2018 09:59:09 PM</span>
+	<span class='label end-time'>Dec 7, 2018 09:59:25 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 15s+492ms</span>
 </div>
 	<ul class='collapsible node-list' data-collapsible='accordion'>
 		
-				<li class='node level-1 leaf fail' status='fail' test-id='2'>
+				<li class='node level-1 leaf pass' status='pass' test-id='2'>
 					<div class='collapsible-header'>
-						<h5 class='node-name'>Sign in to Costco</h5>
-						<span class="node-time label grey lighten-1 white-text">Jul 11, 2018 12:38:47 PM</span>
-						<span class='node-duration label grey lighten-1 white-text'>0h 0m 19s+553ms</span>
-						<span class='test-status right fail'>fail</span>
+						<h5 class='node-name'>Launching Web Check-in portal</h5>
+						<span class="node-time label grey lighten-1 white-text">Dec 7, 2018 09:59:25 PM</span>
+						<span class='node-duration label grey lighten-1 white-text'>0h 0m 15s+482ms</span>
+						<span class='test-status right pass'>pass</span>
 					</div>
 						<div class='collapsible-body'>
 								<div class='node-steps'>
@@ -190,39 +189,91 @@
 										<tbody>
 												<tr class='log' status='pass'>
 													<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-													<td class='timestamp'>12:38:33 PM</td>
-													<td class='step-details'>Navigated to Application URL is successful: https://www.costco.com/</td>
+													<td class='timestamp'>9:59:15 PM</td>
+													<td class='step-details'>Navigated to Application URL is successful: https://ppe-wci.etihad.com/app#/check-in/search</td>
 												</tr>
 												<tr class='log' status='pass'>
 													<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-													<td class='timestamp'>12:38:35 PM</td>
-													<td class='step-details'>Able to perform Click action on Sign in Link</td>
+													<td class='timestamp'>9:59:15 PM</td>
+													<td class='step-details'>Able to perform type in PNR Data is KAZRBI</td>
 												</tr>
 												<tr class='log' status='pass'>
 													<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-													<td class='timestamp'>12:38:36 PM</td>
-													<td class='step-details'>Able to perform type in Email FieldData is sai.2020ece@gmai.com</td>
+													<td class='timestamp'>9:59:15 PM</td>
+													<td class='step-details'>Able to perform type in last nameData is WCI</td>
 												</tr>
 												<tr class='log' status='pass'>
 													<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-													<td class='timestamp'>12:38:36 PM</td>
-													<td class='step-details'>Able to perform type in PasswordData is test@123</td>
+													<td class='timestamp'>9:59:16 PM</td>
+													<td class='step-details'>Able to perform Click action on Search Flight Button</td>
 												</tr>
 												<tr class='log' status='pass'>
 													<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-													<td class='timestamp'>12:38:37 PM</td>
-													<td class='step-details'>Able to perform Click action on Signn in Button</td>
+													<td class='timestamp'>9:59:21 PM</td>
+													<td class='step-details'>Able to perform Click action on Update Passenger Details</td>
 												</tr>
-												<tr class='log' status='fail'>
-													<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
-													<td class='timestamp'>12:38:47 PM</td>
-													<td class='step-details'>Unable to perform Mouse Hover My Accountcom.aventstack.extentreports.ExtentTest@2609b277</td>
+												<tr class='log' status='pass'>
+													<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+													<td class='timestamp'>9:59:22 PM</td>
+													<td class='step-details'>Able to perform type in Updating middle nameData is Middle name test</td>
+												</tr>
+												<tr class='log' status='pass'>
+													<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+													<td class='timestamp'>9:59:22 PM</td>
+													<td class='step-details'>Able to perform type in Month of DOBData is February</td>
+												</tr>
+												<tr class='log' status='pass'>
+													<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+													<td class='timestamp'>9:59:22 PM</td>
+													<td class='step-details'>Able to perform type in Day of DOBData is 15</td>
+												</tr>
+												<tr class='log' status='pass'>
+													<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+													<td class='timestamp'>9:59:23 PM</td>
+													<td class='step-details'>Able to perform type in Year of DOBData is 1988</td>
+												</tr>
+												<tr class='log' status='pass'>
+													<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+													<td class='timestamp'>9:59:23 PM</td>
+													<td class='step-details'>Able to perform Click action on Selecting gender</td>
+												</tr>
+												<tr class='log' status='pass'>
+													<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+													<td class='timestamp'>9:59:23 PM</td>
+													<td class='step-details'>Able to perform type in NationalityData is India</td>
+												</tr>
+												<tr class='log' status='pass'>
+													<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+													<td class='timestamp'>9:59:24 PM</td>
+													<td class='step-details'>Able to perform type in Updating PassportdetailsData is HHJJYY78</td>
+												</tr>
+												<tr class='log' status='pass'>
+													<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+													<td class='timestamp'>9:59:24 PM</td>
+													<td class='step-details'>Able to perform type in Passport issuing CountryData is India</td>
+												</tr>
+												<tr class='log' status='pass'>
+													<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+													<td class='timestamp'>9:59:24 PM</td>
+													<td class='step-details'>Able to perform type in Month of Passport ExpiryData is February</td>
+												</tr>
+												<tr class='log' status='pass'>
+													<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+													<td class='timestamp'>9:59:24 PM</td>
+													<td class='step-details'>Able to perform type in Day of Passport ExpiryData is 15</td>
+												</tr>
+												<tr class='log' status='pass'>
+													<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+													<td class='timestamp'>9:59:24 PM</td>
+													<td class='step-details'>Able to perform type in Year of Passport ExpiryData is 2023</td>
+												</tr>
+												<tr class='log' status='pass'>
+													<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+													<td class='timestamp'>9:59:25 PM</td>
+													<td class='step-details'>Able to perform Click action on Emergency Contact Checkbox</td>
 												</tr>
 										</tbody>
 									</table>
-										<ul class='screenshots'>
-												<li><img data-featherlight='C:/Sai/Personal/Learning/Selenium/Worspace/SeleniumLunaWS/HybridFramework/Screenshots/f57c24a8-2165-4523-8dd1-316784e3df91.jpeg' width='10%' src='C:/Sai/Personal/Learning/Selenium/Worspace/SeleniumLunaWS/HybridFramework/Screenshots/f57c24a8-2165-4523-8dd1-316784e3df91.jpeg' data-src='C:/Sai/Personal/Learning/Selenium/Worspace/SeleniumLunaWS/HybridFramework/Screenshots/f57c24a8-2165-4523-8dd1-316784e3df91.jpeg'></li>
-										</ul>
 								</div>
 						</div>
 				</li>
@@ -270,25 +321,25 @@
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Steps
-					<div class='panel-lead'>6</div>
+					<div class='panel-lead'>17</div>
 				</div>
 			</div>
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Start
-					<div class='panel-lead'>Jul 11, 2018 12:38:24 PM</div>
+					<div class='panel-lead'>Dec 7, 2018 09:59:05 PM</div>
 				</div>
 			</div>
 			<div class='col s2'>
 				<div class='card-panel r'>
 			 		End
-			 		<div class='panel-lead'>Jul 11, 2018 12:38:48 PM</div>
+			 		<div class='panel-lead'>Dec 7, 2018 09:59:25 PM</div>
 				</div>
 			</div>
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Time Taken
-					<div class='panel-lead'>0h 0m 23s+408ms</div>
+					<div class='panel-lead'>0h 0m 19s+783ms</div>
 				</div>
 			</div>
 		</div>
@@ -301,22 +352,22 @@
 
 		<script>
 			var statusGroup = {
-				passParent: 0,
-				failParent: 1,
+				passParent: 1,
+				failParent: 0,
 				fatalParent: 0,
 				errorParent: 0,
 				warningParent: 0,
 				skipParent: 0,
-				exceptionsParent: 1,
+				exceptionsParent: 0,
 				
-				passChild: 5,
-				failChild: 1,
+				passChild: 17,
+				failChild: 0,
 				fatalChild: 0,
 				errorChild: 0,
 				warningChild: 0,
 				skipChild: 0,
 				infoChild: 0,
-				exceptionsChild: 1,
+				exceptionsChild: 0,
 				
 				passGrandChild: 0,
 				failGrandChild: 0,
