@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="20303" started-at="2018-12-07T17:59:05Z" finished-at="2018-12-07T17:59:26Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="20303" started-at="2018-12-07T17:59:05Z" finished-at="2018-12-07T17:59:26Z">
+      <class name="Scripts.sampletest">
+        <test-method status="PASS" signature="report()[pri:0, instance:Scripts.sampletest@1e6d1014]" name="report" is-config="true" duration-ms="220" started-at="2018-12-07T21:59:05Z" finished-at="2018-12-07T21:59:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- report -->
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:Scripts.sampletest@1e6d1014]" name="beforeClass" is-config="true" duration-ms="3423" started-at="2018-12-07T21:59:06Z" finished-at="2018-12-07T21:59:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="Basicflow()[pri:0, instance:Scripts.sampletest@1e6d1014]" name="Basicflow" duration-ms="15492" started-at="2018-12-07T21:59:09Z" finished-at="2018-12-07T21:59:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Basicflow -->
+        <test-method status="PASS" signature="methodName(java.lang.reflect.Method)[pri:0, instance:Scripts.sampletest@1e6d1014]" name="methodName" is-config="true" duration-ms="0" started-at="2018-12-07T21:59:09Z" finished-at="2018-12-07T21:59:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Scripts.sampletest.Basicflow() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodName -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:Scripts.sampletest@1e6d1014]" name="afterClass" is-config="true" duration-ms="1133" started-at="2018-12-07T21:59:25Z" finished-at="2018-12-07T21:59:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- Scripts.sampletest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
