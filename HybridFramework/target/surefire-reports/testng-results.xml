@@ -2,24 +2,24 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="20303" started-at="2018-12-07T17:59:05Z" finished-at="2018-12-07T17:59:26Z">
+  <suite name="Suite" duration-ms="17991" started-at="2018-12-08T07:18:32Z" finished-at="2018-12-08T07:18:50Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="20303" started-at="2018-12-07T17:59:05Z" finished-at="2018-12-07T17:59:26Z">
+    <test name="Test" duration-ms="17991" started-at="2018-12-08T07:18:32Z" finished-at="2018-12-08T07:18:50Z">
       <class name="Scripts.sampletest">
-        <test-method status="PASS" signature="report()[pri:0, instance:Scripts.sampletest@1e6d1014]" name="report" is-config="true" duration-ms="220" started-at="2018-12-07T21:59:05Z" finished-at="2018-12-07T21:59:06Z">
+        <test-method status="PASS" signature="report()[pri:0, instance:Scripts.sampletest@1e6d1014]" name="report" is-config="true" duration-ms="219" started-at="2018-12-08T11:18:32Z" finished-at="2018-12-08T11:18:32Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- report -->
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:Scripts.sampletest@1e6d1014]" name="beforeClass" is-config="true" duration-ms="3423" started-at="2018-12-07T21:59:06Z" finished-at="2018-12-07T21:59:09Z">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:Scripts.sampletest@1e6d1014]" name="beforeClass" is-config="true" duration-ms="3040" started-at="2018-12-08T11:18:32Z" finished-at="2018-12-08T11:18:35Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="Basicflow()[pri:0, instance:Scripts.sampletest@1e6d1014]" name="Basicflow" duration-ms="15492" started-at="2018-12-07T21:59:09Z" finished-at="2018-12-07T21:59:25Z">
+        <test-method status="PASS" signature="Basicflow()[pri:0, instance:Scripts.sampletest@1e6d1014]" name="Basicflow" duration-ms="13634" started-at="2018-12-08T11:18:35Z" finished-at="2018-12-08T11:18:49Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Basicflow -->
-        <test-method status="PASS" signature="methodName(java.lang.reflect.Method)[pri:0, instance:Scripts.sampletest@1e6d1014]" name="methodName" is-config="true" duration-ms="0" started-at="2018-12-07T21:59:09Z" finished-at="2018-12-07T21:59:09Z">
+        <test-method status="PASS" signature="methodName(java.lang.reflect.Method)[pri:0, instance:Scripts.sampletest@1e6d1014]" name="methodName" is-config="true" duration-ms="0" started-at="2018-12-08T11:18:35Z" finished-at="2018-12-08T11:18:35Z">
           <params>
             <param index="0">
               <value>
@@ -30,7 +30,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- methodName -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:Scripts.sampletest@1e6d1014]" name="afterClass" is-config="true" duration-ms="1133" started-at="2018-12-07T21:59:25Z" finished-at="2018-12-07T21:59:26Z">
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:Scripts.sampletest@1e6d1014]" name="afterClass" is-config="true" duration-ms="1067" started-at="2018-12-08T11:18:49Z" finished-at="2018-12-08T11:18:50Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
